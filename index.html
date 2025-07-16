@@ -4,21 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
+    <div class="title-box">
+        <h1 class="page-title">Odin Recipes</h1>
+    </div>
 
-    <ul>
-        <li>
-            <a href="recipes/beer_brats.html">Beer Brats</a>
-        </li>
-        <li>
-            <a href="recipes/fruit_salad.html">Fruit Salad</a>
-        </li>
-        <li>
-            <a href="recipes/spinach_dip.html">Spinach Dip</a>
-        </li>
-    </ul>
-    
+    <div class="recipe-container">
+        <a href="recipes/beer_brats.html" class="card-link">
+            <div class="recipe-card">
+                <div class="image">
+                    <img src="https://www.allrecipes.com/thmb/0Boyk3JsCZcX1OJHQN1U2GK_IiM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/149975-beer-brats-DDMFS-4x3-1b3a104b6ded4a319e4a9b01410d1777.jpg" alt="Beer Brats">
+                </div>
+                <div class="text">
+                    <h2 class="title">Bear Brats</h2>
+                    <p class="description">There's never a better time for beer brats than the Fourth of July. So here's your annual reminder to pull out this favorite recipe and fire up the grill to finish them off. They're fun to dress up and customize, too.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="recipes/fruit_salad.html" class="card-link">
+            <div class="recipe-card">
+                <div class="image">
+                    <img src="https://www.allrecipes.com/thmb/JgswNvZtryP6Qz0GyBn78wVtHS0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/214947-perfect-summer-fruit-salad-ddmfs-step4-3x4-0632-e88ed86f1fef4744ba9fc223e8133232.jpg" alt="Fruit Salad">
+                </div>
+                <div class="text">
+                    <h2 class="title">Fruit Salad</h2>
+                    <p class="description">This fruit salad is perfect for a backyard bbq party or any occasion. There are never leftovers! This is one of my favorite fruit salad recipes, as I think the citrusy sauce really makes it. This salad is tastier the longer you can let it soak in its juices. I prefer 3 to 4 hours in the refrigerator before I serve it.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="recipes/spinach_dip.html" class="card-link">
+            <div class="recipe-card">
+                <div class="image">
+                    <img src="https://www.allrecipes.com/thmb/NjTD8-0ncxY4W_NkmLexSFCOZS4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ALR-22617-best-spinach-dip-ever-VAT-4x3-0b41a85e7cce40bdb4c0790a03eb07fa.jpg" alt="Spinach Dip">
+                </div>
+                <div class="text">
+                    <h2 class="title">Spinach Dip</h2>
+                    <p class="description">This is the perfect no-cook, one-bowl summer dip to bring to a picnic or barbecue. Simply mix together sour cream, mayo, spinach, chopped water chestnuts, and soup mix, allow the flavors to meld in the fridge, then serve with bread, chips, or veggies. It's as easy as that and completely delicious—over 1,100 five-star reviews agree.</p>
+                </div>
+            </div>
+        </a>
+    </div>
 </body>
 </html>
